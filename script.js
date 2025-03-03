@@ -18,7 +18,12 @@ window.addEventListener("scroll", () => {
 
 // Carousel functionality
 let currentIndex = 0;
-const images = document.querySelectorAll('.carousel img');
+const images = [
+    "images/image1.jpg",
+    "images/image2.jpg",
+    "images/image3.jpg",
+    "images/image4.jpg"
+];
 const totalImages = images.length;
 
 function moveCarousel() {
